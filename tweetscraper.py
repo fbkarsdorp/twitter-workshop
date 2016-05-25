@@ -31,7 +31,7 @@ class TwitterListener(StreamListener):
 
     def on_error(self, status_code):
         if status_code == 420:
-            print(status)
+            print(status_code)
             return False
 
 
